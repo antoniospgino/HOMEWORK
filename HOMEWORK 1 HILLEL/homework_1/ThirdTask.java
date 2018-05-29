@@ -1,4 +1,4 @@
-package com.company;
+package homework_1;
 
 public class ThirdTask {
     /*
@@ -9,11 +9,11 @@ public class ThirdTask {
 	Среднее арифметическое массива.
      */
 
-    double third(int[] mas){
-        int sum=0;
-        for (int i = 0; i <mas.length; i++) {
-            sum = sum+mas[i];
+    double third(int[] mas) {
+        int sum = 0;
+        for (int i = 0; i < mas.length; i++) {
+            sum = sum + mas[i];
         }
-        return sum/mas.length;
+        return sum / mas.length;
     }
 }

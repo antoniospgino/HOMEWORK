@@ -1,4 +1,4 @@
-package com.company;
+package homework_1;
 
 public class Main {
 
@@ -8,7 +8,7 @@ public class Main {
         1. Сформировать строку которая состоит из чисел от 100 до 0 которые кратные 3. Если число также кратно 5 то заменить его на слово test.
         Например: `99, 96, 93, test, 87...`.
          */
-        FirstTask firstTask=new FirstTask();
+        FirstTask firstTask = new FirstTask();
         firstTask.first(); // вместо слова test у меня 99999, пока не могу сделать чтобы меняло на test
 
         //Second Task
@@ -22,7 +22,7 @@ public class Main {
         Среднее арифметическое массива.
          */
         ThirdTask thirdTask = new ThirdTask();
-        System.out.println("Среднее арифметическое массива : "+thirdTask.third(firstTask.int1));
+        System.out.println("Среднее арифметическое массива : " + thirdTask.third(firstTask.int1));
 
 
 
